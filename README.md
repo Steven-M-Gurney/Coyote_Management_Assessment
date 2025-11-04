@@ -6,7 +6,7 @@
 
 ### Data: Most data are security sensitive and housed with the Wildlife Division's special-publication repository.
 
-#### Please contact the first author for questions about the code or data: Steven M. Gurney (steven.m.gurney@gmail.com)
+#### Please contact the first author for questions about the code or data: Steven M. Gurney (stevenmgurney@gmail.com)
 __________________________________________________________________________________________________________________________________________
 
 ## Summary
