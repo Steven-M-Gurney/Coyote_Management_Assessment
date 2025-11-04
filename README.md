@@ -15,14 +15,14 @@ Detroit Metropolitan Wayne County Airport (DTW) is committed to maintaining the 
 
 ## Repository Directory
 
-### [Integrated data analysis](./Integrated_Data_Analysis): Contains code for integrating, analyzing, and visulizing data.
+### [Integrated_Data_Analysis](./Integrated_Data_Analysis): Contains code for integrating, analyzing, and visulizing data.
 * [Data_Integration.R](./Integrated_Data_Analysis/Data_Integration.R) - Code to process and integrate data from multiple sources.
 * [Plots.R](./Integrated_Data_Analysis/Plots.R) - Code to visualize integrated-data results and produce control chart.
 
-### [Spatial analysis](./Spatial_Analysis): Contains code for mapping, summarizing, and ranking sites problematic to exclusion.
+### [Spatial_Analysis](./Spatial_Analysis): Contains code for mapping, summarizing, and ranking sites problematic to exclusion.
 * [Spatial_Data.R](./Spatial_Analysis/Spatial_Data.R) - Code to process and visualize landcover data; and calculate percent natural cover per buffered area.
 * [Ranking_Summary.R](./Spatial_Analysis/Ranking_Summary.R) - Code to 1) rank priority level of sites problematic to exclusion (based on landcover and perimeter-survey data) and produce summary statistics.
 
-### [Species hazard ranking](./Species_Hazard_Ranking): Contains code to process strike data and rank relative hazard level of species.
+### [Species_Hazard_Ranking](./Species_Hazard_Ranking): Contains code to process strike data and rank relative hazard level of species.
 * [Species_Ranking.R](./Species_Hazard_Ranking/Species_Ranking.R) - Code to process data exported from the FAA strike database.
 * [Strike_Data_Prep.R](./Species_Hazard_Ranking/Strike_Data_Prep.R) - Code to analyze strike metrics and produce relative hazard results by species.
