@@ -2,12 +2,11 @@
 
 ### [Steven Gurney](https://linktr.ee/stevenmgurney), [Austin Messing](), [Selena Creed]()
 
-### Manuscript: Wayne County Airport Authority Airfield Operations, Wildlife Division, Special Publication No. 25-01.
+### Manuscript:<br>Wayne County Airport Authority Airfield Operations, Wildlife Division, Special Publication No. 25-01.
 
-### Data: Most data are security sensitive and housed with the Wildlife Division's special-publication repository.
+### Data:<br>Most data are security sensitive and housed with the Wildlife Division's special-publication repository.
 
-#### Suggested citation: _Gurney, S., Messing, A., and S. Creed. 2025. Wildlife exclusion and management evaluation: a coyote case study. Special Publication No. 25-01. Wayne County Airport Authority, Airfield Operations – Wildlife Division, Detroit, MI, USA._
-
+#### Suggested citation:<br>_Gurney, S., Messing, A., and S. Creed. 2025. Wildlife exclusion and management evaluation: a coyote case study. Special Publication No. 25-01. Wayne County Airport Authority, Airfield Operations – Wildlife Division, Detroit, MI, USA._
 
 #### Please contact the first author for questions about the code or data: Steven M. Gurney (steven.m.gurney@gmail.com)
 __________________________________________________________________________________________________________________________________________
