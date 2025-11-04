@@ -1,6 +1,6 @@
 # Wildlife exclusion and management assessment: a coyote case study
 
-### [Steven Gurney](https://linktr.ee/gurneyst), [Austin Messing](), [Selena Creed]()
+### [Steven Gurney](https://linktr.ee/stevenmgurney), [Austin Messing](), [Selena Creed]()
 
 ### Manuscript: Wayne County Airport Authority Airfield Operations, Wildlife Division, Special Publication No. 25-01.
 
