@@ -6,8 +6,7 @@
 
 ### Data: Most data are security sensitive and housed with the Wildlife Division's special-publication repository.
 
-#### Suggested citation:
-Gurney, S., Messing, A., and S. Creed. 2025. Wildlife exclusion and management evaluation: a coyote case study. Special Publication No. 25-01. Wayne County Airport Authority, Airfield Operations – Wildlife Division, Detroit, MI, USA.
+#### Suggested citation: _Gurney, S., Messing, A., and S. Creed. 2025. Wildlife exclusion and management evaluation: a coyote case study. Special Publication No. 25-01. Wayne County Airport Authority, Airfield Operations – Wildlife Division, Detroit, MI, USA._
 
 
 #### Please contact the first author for questions about the code or data: Steven M. Gurney (steven.m.gurney@gmail.com)
@@ -27,6 +26,6 @@ Detroit Metropolitan Wayne County Airport (DTW) is committed to maintaining the 
 * [Spatial_Data.R](./Spatial_Analysis/Spatial_Data.R) - Code to process and visualize landcover data; and calculate percent natural cover per buffered area.
 * [Ranking_Summary.R](./Spatial_Analysis/Ranking_Summary.R) - Code to 1) rank priority level of sites problematic to exclusion (based on landcover and perimeter-survey data) and produce summary statistics.
 
-### [Species hazard ranking](./Species_Hazard_Ranking): Contains code to process strike data and rank the relative hazard level of species.
+### [Species hazard ranking](./Species_Hazard_Ranking): Contains code to process strike data and rank relative hazard level of species.
 * [Species_Ranking.R](./Species_Hazard_Ranking/Species_Ranking.R) - Code to process data exported from the FAA strike database.
 * [Strike_Data_Prep.R](./Species_Hazard_Ranking/Strike_Data_Prep.R) - Code to analyze strike metrics and produce relative hazard results by species.
