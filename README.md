@@ -1,30 +1,17 @@
-# Wildlife Exclusion and Management Assessment: A Coyote Case Study
+# Wildlife exclusion and management assessment: a coyote case study
 
 ### [Steven Gurney](https://linktr.ee/gurneyst), [Austin Messing](), [Selena Creed]()
 
-### Manuscript: Wayne County Airport Authority Airfield Operations, Wildlife Division, Special Publication No. 25-01
+### Manuscript: Wayne County Airport Authority Airfield Operations, Wildlife Division, Special Publication No. 25-01 (2025).
 
-#### Please contact the first author for questions about the code or data: Steven M. Gurney (steven.m.gurney@gmail.com)
-
-This repository includes code for wrangling, cleaning, analyzing, and visualizing data associated with the DTW Coyote Project. Most data are security sensitive and housed with the DTW Wildlife Team's special-publication repository.
-
-
-
-# Harvest restrictions fail to influence population abundance
-
-, [Sonja A. Christensen](http://www.christensen-lab.org/), [Melissa J. Nichols](), [Chad M. Stewart](), [David M. Williams](), [Sarah L. Mayhew](), [Neil A. Gilbert](https://gilbertecology.com), [Dwayne R. Etter]()
-
-### Manuscript: [Published in Ecosphere](https://doi.org/10.1002/ecs2.70358)
-
-### Data/code DOI: [![DOI](https://zenodo.org/badge/678437269.svg)](https://doi.org/10.5281/zenodo.15716493)
+### Data: Most data are security sensitive and housed with the Wildlife Division's special-publication repository.
 
 #### Please contact the first author for questions about the code or data: Steven M. Gurney (steven.m.gurney@gmail.com)
 __________________________________________________________________________________________________________________________________________
 
-## Abstract
+## Summary
 
-Evaluating changes in population abundance is essential to assess the efficacy of conservation actions. Antler point restrictions are a high-profile regulatory action aimed to advance male age structure in cervid populations, but there is a limited understanding on how restrictions affect population size and structure. Our study evaluated population-level effects of an antler point restriction on white-tailed deer (*Odocoileus virginianus*) abundance and sex and age composition using a before-after control-impact design. Antler point restrictions are intended to increase the abundance of legal-antlered deer, but the impact on the abundance of antlerless deer is less known. By limiting the harvest of yearling males, antler point restrictions may lead hunters to shift harvest toward antlerless deer, potentially increasing female mortality and reducing population fecundity. We conducted camera-trap surveys of deer in zones with and without antler point restrictions before and three years after the implementation of restrictions and used N-mixture models to estimate annual abundance by sex and age class. The restriction prohibited the harvest of antlered deer with fewer than four points on a single antler beam (i.e., on one side). Our results suggest that the restrictions did not influence population abundance of deer. Abundance of legal-antlered deer increased in both the restriction zone and non-restriction zone (opposing predictions), as did the abundance of females, sublegal-antlered deer, and fawns (opposing predictions). Partial controllability, or a failure of the regulation to influence realized harvest, likely explains these results, since antlerless deer harvest did not change throughout the duration of our study while slight but insignificant change in antlered harvest was observed in the restriction zone. Our results highlight potential limitations of antler point restrictions achieving desired effects for population reduction goals and the importance of independently evaluating conservation and management actions.
-
+Detroit Metropolitan Wayne County Airport (DTW) is committed to maintaining the highest standards of aviation safety, security, and operational efficiency. In alignment with 14 CFR § 139.337 and DTW’s Wildlife Hazard Management Plan, proactive identification and mitigation of wildlife hazards are essential to reducing strike risks and protecting both airfield operations and the traveling public. Coyotes (Canis latrans) have emerged as a persistent and adaptable hazard at DTW, capable of breaching perimeter defenses and posing threats to safety, security, and airfield operations. Recognizing the importance of this issue, the Wayne County Airport Authority’s (WCAA) Airfield Operations – Wildlife Division spearheaded a systematic evaluation of coyote activity and perimeter vulnerabilities, providing actionable exclusion strategies informed by empirical data. The findings and recommendations presented in this report support DTW’s ongoing commitment to collaborative, science-based, adaptive wildlife hazard management. 
 
 ## Repository Directory
 
