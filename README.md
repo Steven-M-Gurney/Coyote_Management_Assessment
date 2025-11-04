@@ -15,12 +15,9 @@ Detroit Metropolitan Wayne County Airport (DTW) is committed to maintaining the 
 
 ## Repository Directory
 
-### [Code](./Code): Contains code for preparing study data and running study model.
-*  [Data_Prep](./Code/Data_Prep) - Folder with code to prepare study data for use in the N-mixture model.
-   * [Data_Processing.R](./Code/Data_Prep/Data_Processing.R) - Code to process wrangled data.
-   * [Data_Wrangling.R](./Code/Data_Prep/Data_Wrangling.R) - Code to wrangle study data.
-* [N_Mixture_Model_Supplement.R](./Code/N_Mixture_Model_Supplement.R) - Code to fit alternative model with year as a factor rather than linear effect
-* [N_Mixture_Model.R](./Code/N_Mixture_Model.R) - Code to fit N-mixture models (main text)
+### [Integrated data analysis](./Integrated_Data_Analysis): Contains code for integrating, analyzing, and visulizing data.
+* [Data_Integration.R](./Integrated_Data_Analysis/Data_Integration.R) - Code to process and integrate data from multiple sources.
+* [Plots.R](./Integrated_Data_Analysis/Plots.R) - Code to visualize integrated-data results and produce control chart.
 
 ### [Data](./Data): Contains data for study.
 *  [Count_Data](./Data/Count_Data) - Folder with verified count data by sex-and-age class and year (2019 - 2022; CSV files). These detection histories include a column for LocationName (unique name of sampling site, synonymous with SiteID) and columns associated with 9 seperate weekly counts.
