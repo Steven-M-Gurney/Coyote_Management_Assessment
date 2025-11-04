@@ -2,9 +2,13 @@
 
 ### [Steven Gurney](https://linktr.ee/gurneyst), [Austin Messing](), [Selena Creed]()
 
-### Manuscript: Wayne County Airport Authority Airfield Operations, Wildlife Division, Special Publication No. 25-01 (2025).
+### Manuscript: Wayne County Airport Authority Airfield Operations, Wildlife Division, Special Publication No. 25-01.
 
 ### Data: Most data are security sensitive and housed with the Wildlife Division's special-publication repository.
+
+#### Suggested citation:
+Gurney, S., Messing, A., and S. Creed. 2025. Wildlife exclusion and management evaluation: a coyote case study. Special Publication No. 25-01. Wayne County Airport Authority, Airfield Operations – Wildlife Division, Detroit, MI, USA.
+
 
 #### Please contact the first author for questions about the code or data: Steven M. Gurney (steven.m.gurney@gmail.com)
 __________________________________________________________________________________________________________________________________________
@@ -19,58 +23,10 @@ Detroit Metropolitan Wayne County Airport (DTW) is committed to maintaining the 
 * [Data_Integration.R](./Integrated_Data_Analysis/Data_Integration.R) - Code to process and integrate data from multiple sources.
 * [Plots.R](./Integrated_Data_Analysis/Plots.R) - Code to visualize integrated-data results and produce control chart.
 
-### [Data](./Data): Contains data for study.
-*  [Count_Data](./Data/Count_Data) - Folder with verified count data by sex-and-age class and year (2019 - 2022; CSV files). These detection histories include a column for LocationName (unique name of sampling site, synonymous with SiteID) and columns associated with 9 seperate weekly counts.
-   * [Counts_Fawns_2019.csv](./Data/Count_Data/Counts_Fawns_2019.csv) - Fawn count data for 2019.
-   * [Counts_Fawns_2020.csv](./Data/Count_Data/Counts_Fawns_2020.csv) - Fawn count data for 2020.
-   * [Counts_Fawns_2021.csv](./Data/Count_Data/Counts_Fawns_2021.csv) - Fawn count data for 2021.
-   * [Counts_Fawns_2022.csv](./Data/Count_Data/Counts_Fawns_2022.csv) - Fawn count data for 2022.
-   * [Counts_Females_2019.csv](./Data/Count_Data/Counts_Females_2019.csv) - Female count data for 2019.
-   * [Counts_Females_2020.csv](./Data/Count_Data/Counts_Females_2020.csv) - Female count data for 2020.
-   * [Counts_Females_2021.csv](./Data/Count_Data/Counts_Females_2021.csv) - Female count data for 2021.
-   * [Counts_Females_2022.csv](./Data/Count_Data/Counts_Females_2022.csv) - Female count data for 2022.
-   * [Counts_Legal_2019.csv](./Data/Count_Data/Counts_Legal_2019.csv) - Legal-antlered count data for 2019.
-   * [Counts_Legal_2020.csv](./Data/Count_Data/Counts_Legal_2020.csv) - Legal-antlered count data for 2020.
-   * [Counts_Legal_2021.csv](./Data/Count_Data/Counts_Legal_2021.csv) - Legal-antlered count data for 2021.
-   * [Counts_Legal_2022.csv](./Data/Count_Data/Counts_Legal_2022.csv) - Legal-antlered count data for 2022.
-   * [Counts_Sublegal_2019.csv](./Data/Count_Data/Counts_Sublegal_2019.csv) - Sublegal-antlered count data for 2019.
-   * [Counts_Sublegal_2020.csv](./Data/Count_Data/Counts_Sublegal_2020.csv) - Sublegal-antlered count data for 2020.
-   * [Counts_Sublegal_2021.csv](./Data/Count_Data/Counts_Sublegal_2021.csv) - Sublegal-antlered count data for 2021.
-   * [Counts_Sublegal_2022.csv](./Data/Count_Data/Counts_Sublegal_2022.csv) - Sublegal-antlered count data for 2022.
-*  [Covariate_Tables](./Data/Covariate_Tables) - Folder with annual covatiate tables (2019 - 2022; CSV files). These tables contain the following columns:
-    | Variable name | Meaning |
-    |---------------|---------|
-    | SiteID | Unique name of sampling site |
-    | ClosedCover | Binary indicator for dominant land cover, open (1) or closed (0) |
-    | AgCover | Percent agricultural cover |
-   * [CovariateTable_2019.csv](./Data/Covariate_Tables/CovariateTable_2019.csv) - 2019 covariate table.
-   * [CovariateTable_2020.csv](./Data/Covariate_Tables/CovariateTable_2020.csv) - 2020 covariate table.
-   * [CovariateTable_2021.csv](./Data/Covariate_Tables/CovariateTable_2021.csv) - 2021 covariate table.
-   * [CovariateTable_2022.csv](./Data/Covariate_Tables/CovariateTable_2022.csv) - 2022 covariate table.
+### [Spatial analysis](./Spatial_Analysis): Contains code for mapping, summarizing, and ranking sites problematic to exclusion.
+* [Spatial_Data.R](./Spatial_Analysis/Spatial_Data.R) - Code to process and visualize landcover data; and calculate percent natural cover per buffered area.
+* [Ranking_Summary.R](./Spatial_Analysis/Ranking_Summary.R) - Code to 1) rank priority level of sites problematic to exclusion (based on landcover and perimeter-survey data) and produce summary statistics.
 
-### [Figures](./Figures): Contains figures and code to create them.
-*  [Code_For_Figures](./Figures/Code_For_Figures) - Folder with scripts and data to create figures.
-   * [Figure_02.R](./Figures/Code_For_Figures/Figure_02.R) - Create Figure 2 (marginal effects).
-   * [Figure_03.R](./Figures/Code_For_Figures/Figure_03.R) - Create Figure 3 (differences in abundance).
-   * [Figure_04.R](./Figures/Code_For_Figures/Figure_04.R) - Create Figure 4 (harvest estimates).
-   * [Figure_Supplement.R](./Figures/Code_For_Figures/Figure_Supplement.R) - Create supplemental figures visualizing results for model with year as a factor.
-*  [Appendix_S2_Figure_S1.png](./Figures/Appendix_S2_Figure_S1.png) - Appendix S2: Figure S1. Marginal effects of year by harvest treatment (for supplemental model with year as a factor).
-*  [Appendix_S2_Figure_S2.png](./Figures/Appendix_S2_Figure_S2.png) - Appendix S2: Figure S2. Differences in abundance between 2022 and 2019 (for supplemental model with year as a factor).
-*  [Figure_01.tif](./Figures/Figure_01.tif) - Figure 1. Study area (created in ArcGIS Pro).
-*  [Figure_02.tif](./Figures/Figure_02.tif) - Figure 2. Marginal effects of year by harvest treatment.
-*  [Figure_03.tif](./Figures/Figure_03.tif) - Figure 3. Differences in abundance between 2022 and 2019.
-*  [Figure_04.tif](./Figures/Figure_04.tif) - Figure 4. MDNR estimated deer harvest.
-*  [Silhouette_Fawn.png](./Figures/Silhouette_Fawn.png) - Fawn silhouette for figure annotations.
-*  [Silhouette_Sublegal.png](./Figures/Silhouette_Sublegal.png) - Sublegal antlered silhouette for figure annotations.
-*  [Silhouette_Female.png](./Figures/Silhouette_Female.png) - Female deer silhouette for figure annotations.
-*  [Silhouette_Legal.png](./Figures/Silhouette_Legal.png) - Legal antlered silhouette for figure annotations.
-
-### [Results](./Results): Contains results files.
-*  [Differences](./Results/Differences) - Folder with results from the interpretation model for difference in abundances (2022 - 2019; by sex-and-age class). These tables contain the following columns:
-    | Variable name | Meaning |
-    |---------------|---------|
-    | trt | Harvest-treatment index (1 = Non-APR; 2 = APR)|
-    | mean | Mean estimate of difference |
-    | l95 | Lower credible interval of difference estimate |
-    | u95 | Upper credible interval of difference estimate |
-    | trt_name | Harvest-treatment acronym (Non=APR = no restrictions; APR = restrictions) |
+### [Species hazard ranking](./Species_Hazard_Ranking): Contains code to process strike data and rank the relative hazard level of species.
+* [Species_Ranking.R](./Species_Hazard_Ranking/Species_Ranking.R) - Code to process data exported from the FAA strike database.
+* [Strike_Data_Prep.R](./Species_Hazard_Ranking/Strike_Data_Prep.R) - Code to analyze strike metrics and produce relative hazard results by species.
