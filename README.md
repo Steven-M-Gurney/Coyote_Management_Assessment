@@ -2,7 +2,8 @@
 
 ### [Steven Gurney](https://linktr.ee/stevenmgurney), [Austin Messing](), [Selena Creed]()
 
-### Manuscript: Special Publication No. 25-01 (2025). Wayne County Airport Authority, Airfield Operations – Wildlife Division, Detroit, MI, USA. [![DOI](https://zenodo.org/badge/678437269.svg)](https://doi.org/10.5281/zenodo.17558642)
+### Special Publication No. 25-01: [![DOI](https://zenodo.org/badge/678437269.svg)](https://doi.org/10.5281/zenodo.17558642)
+Wayne County Airport Authority, Airfield Operations – Wildlife Division, Detroit, MI, USA. 
 
 ### Data: Most data are security sensitive and housed with the Wildlife Division's special-publication repository.
 
