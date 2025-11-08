@@ -28,4 +28,4 @@ At Detroit Metropolitan Wayne County Airport (DTW), we are committed to maintain
 * [Strike_Data_Prep.R](./Species_Hazard_Ranking/Strike_Data_Prep.R) - Code to analyze strike metrics and produce relative hazard results by species.
 
 ## Supplemental Information
-* Relative [video presentation](https://youtu.be/CAUvHTNuZgo) given to AAAE Wildlife Management and BSC USA working group (Operations & Policy Committee), June 2025.
+* Relative [video presentation](https://youtu.be/CAUvHTNuZgo) given to AAAE Wildlife Management and BSC USA Operations and Policy Committee working group.
